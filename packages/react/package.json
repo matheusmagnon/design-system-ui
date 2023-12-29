@@ -11,9 +11,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "tsup": "^8.0.1",
+    "@front-ui/ts-config":"*",
     "@front-ui/tokens":"*",
     "typescript": "^5.3.3"
   }
