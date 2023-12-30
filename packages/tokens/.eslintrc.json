@@ -1,0 +1,3 @@
+{
+    "extends": "@front-ui/eslint-config"
+}
