@@ -2,14 +2,13 @@
   "name": "@front-ui/docs",
   "version": "0.0.0",
   "main": "index.js",
-
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build"
   },
   "keywords": [],
   "author": "",
-  "license":"MIT",
+  "license": "MIT",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.7",
     "@storybook/addon-interactions": "^7.6.7",
@@ -23,11 +22,13 @@
     "storybook": "^7.6.7",
     "typescript": "^5.3.3",
     "vite": "^5.0.10"
-},
+  },
   "dependencies": {
-    "@front-ui/react":"*",
-    "@front-ui/tokens":"*",
-    "@front-ui/eslint-config":"*",
+    "@front-ui/eslint-config": "*",
+    "@front-ui/ts-config": "*",
+    "@front-ui/react": "*",
+    "@front-ui/tokens": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
