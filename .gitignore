@@ -1,4 +1,5 @@
 node_modules
+dist
 packages/react/dist
 packages/tokens/dist
 
