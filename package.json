@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "turbo": "^1.11.3"
+  },
+  "dependencies": {
+    "@storybook/addon-docs": "^7.6.7"
   }
 }
