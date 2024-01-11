@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Text, TextProps } from '@front-ui/react'
 
 export default {
-  title: 'typography/Text',
+  title: 'Typography/Text',
   component: Text,
   args: {
     children:
