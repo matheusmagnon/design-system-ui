@@ -1,5 +1,9 @@
-// auto fix by eslint
+
 {
+  "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  //"editor.fontFamily": "JetBrains Mono",
+  // auto fix by eslint
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit"
     },
@@ -7,4 +11,4 @@
       "javascript"
     ],
     "files.autoSave": "afterDelay"
-   }
+}
