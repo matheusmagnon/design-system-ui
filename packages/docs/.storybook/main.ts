@@ -27,7 +27,7 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-  async viteFinal(config, {configType}) {
+  viteFinal: (config, {configType}) => {
       if (configType === 'PRODUCTION') {
         config.base = '/design-system-ui/'
       }
