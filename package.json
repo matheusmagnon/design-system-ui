@@ -5,7 +5,9 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "build-static-webapp":"expo build:web"
+
   },
   "devDependencies": {
     "turbo": "^1.11.3"
