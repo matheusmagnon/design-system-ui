@@ -28,14 +28,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-  viteFinal: (config, {configType}) => {
-      if (configType === 'PRODUCTION') {
-        config.base = '/design-system-ui/'
-      }
-
-      return mergeConfig(config, {
-        // Your environment configuration here
-      });
+  async viteFinal(config, { configType }) {
+    if (configType === 'PRODUCTION') {
+      config.base = '/design-system-ui/'
+    }
+    return config
   },
 };
 export default config;
