@@ -34,6 +34,7 @@ const config: StorybookConfig = {
       config.base = './design-system-ui/'
     }
     return config
+
   },
 };
 export default config;
