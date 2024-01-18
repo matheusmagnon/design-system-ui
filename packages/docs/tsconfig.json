@@ -1,4 +1,4 @@
 {
-    "extends": "@design-front-ui/ts-config/react.json",
+    "extends": "@front-ui/ts-config/react.json",
     "include": ["src"]
 }

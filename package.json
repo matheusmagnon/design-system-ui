@@ -6,12 +6,9 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "turbo run build --filter=@front-ui/docs && changeset publish"
+    "build-static-webapp": "expo build:web"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
     "@storybook/builder-vite": "^7.6.9",
     "turbo": "^1.11.3"
   },
