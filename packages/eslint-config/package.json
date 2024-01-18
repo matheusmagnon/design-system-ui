@@ -1,5 +1,5 @@
 {
-  "name": "@front-ui/eslint-config",
+  "name": "@design-front-ui/eslint-config",
   "license": "MIT",
   "private": true,
   "main": "index.js",
