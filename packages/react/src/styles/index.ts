@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@design-front-ui/tokens'
+} from '@front-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
