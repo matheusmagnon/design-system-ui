@@ -31,7 +31,7 @@ const config: StorybookConfig = {
   async viteFinal(config, { configType }) {
     if (configType === 'PRODUCTION') {
       console.log('sssssssssssssssssssssssssssssssssssssssssssssss')
-      config.base = '/design-system-ui/'
+      config.base = './design-system-ui/'
     }
     return config
   },
