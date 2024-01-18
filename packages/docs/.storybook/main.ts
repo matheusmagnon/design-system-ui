@@ -1,6 +1,7 @@
 import type { StorybookConfig } from "@storybook/react-vite";
 
 import { join, dirname } from "path";
+import { mergeConfig } from "vite";
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -27,12 +28,13 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-  viteFinal: (config, {configType}) => {
-      if (configType === 'PRODUCTION') {
-        config.base = './design-system-ui/'
-      }
+  async viteFinal(config, { configType }) {
+    if (configType === 'PRODUCTION') {
+      console.log('sssssssssssssssssssssssssssssssssssssssssssssss')
+      config.base = './design-system-ui/'
+    }
+    return config
 
-    return config;
   },
 };
 export default config;
