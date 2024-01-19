@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextInput, TextInputProps } from '@front-ui/react'
+import { Box, Text, TextInput, TextInputProps } from '@design-front-ui/react'
 
 export default {
   title: 'Form/Text Input',
