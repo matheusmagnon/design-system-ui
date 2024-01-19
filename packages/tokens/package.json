@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@front-ui/ts-config": "*",
-    "@front-ui/eslint-config": "*",
+    "@front-ui/ts-config":"*",
+    "@front-ui/eslint-config":"*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
