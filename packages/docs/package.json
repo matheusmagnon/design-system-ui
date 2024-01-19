@@ -26,10 +26,10 @@
     "vite": "^5.0.10"
   },
   "dependencies": {
-    "@front-ui/eslint-config": "*",
-    "@front-ui/react": "*",
-    "@front-ui/tokens": "*",
-    "@front-ui/ts-config": "*",
+    "@design-front-ui/eslint-config": "*",
+    "@design-front-ui/react": "*",
+    "@design-front-ui/tokens": "*",
+    "@design-front-ui/ts-config": "*",
     "@storybook/addon-a11y": "^7.6.8",
     "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",

@@ -1,4 +1,4 @@
-import { colors } from '@front-ui/tokens'
+import { colors } from '@design-front-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

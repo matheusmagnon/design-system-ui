@@ -1,6 +1,6 @@
 // tipagens ts
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps, Text } from '@front-ui/react'
+import { Box, BoxProps, Text } from '@design-front-ui/react'
 
 export default {
   title: 'Surfaces/Box',
